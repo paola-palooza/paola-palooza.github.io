@@ -11,7 +11,8 @@ p {
 
 .container {
 /*    margin-left: 249px;*/
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 
@@ -20,6 +21,11 @@ p {
     margin-top: 10px;
     margin-bottom: 10px;
     transition: transform .2s; /* Animation */
+    margin-bottom: 50px;
+}
+
+p.links {
+    line-height: 1;
 }
 
 .zoom:hover {
