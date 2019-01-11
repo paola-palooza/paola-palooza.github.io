@@ -1,0 +1,43 @@
+html {
+    
+    letter-spacing: 0.1px;
+}
+p {
+    font-family: 'VT323', monospace;
+    line-height: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.container {
+    margin-left: 10px;
+    padding-left: 249px;
+    margin-top: 50px;
+}
+
+
+.zoom {
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+    font-size: 20.5px;
+}
+
+a {
+    color: #0000EE;
+}
+
+a:hover {
+    color: grey;
+}
+.social {
+    color: black;
+}
+.social:hover {
+    text-decoration: underline;
+    color: black;
+}
