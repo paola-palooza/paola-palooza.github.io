@@ -10,26 +10,21 @@ p {
 }
 
 .container {
-/*    margin-left: 249px;*/
     margin-top: 20px;
-    margin-left: 20px;
+    padding-left: 20px;
+    margin-left: 0px;
 }
 
 
 .zoom {
-    padding-left: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
     transition: transform .2s; /* Animation */
     margin-bottom: 50px;
 }
 
-p.links {
-    line-height: 1;
-}
-
 .zoom:hover {
-    font-size: 20.5px;
+    font-size: 20.2px;
 }
 
 a {
