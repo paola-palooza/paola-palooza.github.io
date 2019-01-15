@@ -1,8 +1,4 @@
-html {
-    
-    letter-spacing: 0.1px;
-}
-p {
+p, pre {
     font-family: 'VT323', monospace;
     line-height: 20px;
     font-size: 20px;
@@ -24,7 +20,7 @@ p {
 }
 
 .zoom:hover {
-    font-size: 20.2px;
+/*    font-size: 20.2px;*/
 }
 
 a {
@@ -32,7 +28,8 @@ a {
 }
 
 a:hover {
-    color: grey;
+    text-decoration: underline;
+    color: #0000EE;
 }
 .social {
     color: black;
