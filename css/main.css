@@ -1,8 +1,19 @@
-p, pre {
+p {
     font-family: 'VT323', monospace;
     line-height: 20px;
     font-size: 20px;
     color: black;
+}
+
+pre {
+    white-space: pre-wrap;
+    line-height: 1;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
