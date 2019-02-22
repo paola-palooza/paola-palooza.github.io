@@ -45,12 +45,12 @@ img {
 }
 
 a {
-    color: #0000EE;
+    color: #0000a3;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #0000EE;
+    color: #06edbd;
 }
 .social {
     color: black;
