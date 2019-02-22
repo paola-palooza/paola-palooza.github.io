@@ -45,7 +45,14 @@ img {
 }
 
 a {
-    color: #0000a3;
+	color: #0000a3;
+	height: 54px;
+	width: 516px;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.1px;
+	line-height: 18px;
 }
 
 a:hover {
