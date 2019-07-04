@@ -1,70 +1,83 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-p   {
-	height: 54px;
-	width: 516px;
-	color: #000000;
-	font-family: Lato;
-	font-size: 14px;
-	font-weight: bold;
-	letter-spacing: 0.1px;
-	line-height: 18px;
+.middle-center {
+    vertical-align: middle;
+    float: none;
 }
 
-pre {
-    white-space: pre-wrap;
-	height: 34px;
-	width: 516px;
-	color: #000000;
-	font-family: Lato;
-	font-size: 14px;
-	letter-spacing: 0.1px;
-	line-height: 17px;
+.content {
+    margin: auto;
+    display: block;
+    text-align: center;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.whitespace {
+    height: 30vh;
 }
 
-.container {
-    margin-top: 20px;
-    padding-left: 20px;
-    margin-left: 0px;
+.contact {
+    margin: auto;
+    display: block;
+    text-align: center;
 }
 
-
-.zoom {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    transition: transform .2s; /* Animation */
-    margin-bottom: 50px;
+.button {
+    background-color: #FF01AC;
+    border-color: #FF01AC;
+    border-radius: 20px;
+    font-size: 20px;
 }
 
-.zoom:hover {
-/*    font-size: 20.2px;*/
+.button:hover {
+    background-color: grey;
+    border-color: grey;
+    transition: all 0.5s ease;
+    
+}
+
+.button:active:focus {
+    color: #ffffff !important; 
+    background-color: #161617; 
+    border-color: #494F57;
+}
+
+.title {
+    padding-right: 90px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-space {
+    width: 30vw;
+}
+
+i {
+    font-size: 30px;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 a {
-	color: #0000a3;
-	height: 54px;
-	width: 516px;
-	font-family: Lato;
-	font-size: 14px;
-	font-weight: bold;
-	letter-spacing: 0.1px;
-	line-height: 18px;
+    text-decoration: none !important;
 }
 
-a:hover {
-    text-decoration: underline;
-    color: #06edbd;
+.instagram-icon:hover {
+    color: #bd0f89;
+    transition: all 0.5s ease;
 }
-.social {
-    color: black;
+
+.linkedin-icon:hover {
+    color: #1a85bc;
+    transition: all 0.5s ease;
 }
-.social:hover {
-    text-decoration: underline;
-    color: black;
+
+.twitter-icon:hover {
+    color: #1da1f2;
+    transition: all 0.5s ease;
 }
+
