@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato:300i&display=swap');
 
 .middle-center {
     vertical-align: middle;
@@ -26,8 +26,12 @@
     background-color: #FF00AC;
     border-color: #FF00AC;
     border-radius: 20px;
-    font-size: 16px;
-    padding: 5px 60px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .button:hover {
@@ -37,23 +41,24 @@
     
 }
 
-.button:active:focus {
+.btn:focus,.btn:active {
     color: #ffffff !important; 
-    background-color: #161617; 
-    border-color: #494F57;
+    outline: none !important;
+    box-shadow: none;
 }
 
 .title {
-    padding-right: 90px;
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
 }
 
 .footer {
   position: absolute;
-  bottom: 0;
+  bottom: 8px;
 }
 
 .footer-space {
-    width: 30vw;
+    width: 28vw;
 }
 
 i {
