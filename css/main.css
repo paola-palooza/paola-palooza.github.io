@@ -30,9 +30,9 @@
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-style: regular;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    width: 130px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 150px;
 }
 
 .button:hover {
