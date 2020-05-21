@@ -9,7 +9,6 @@
 
 .content {
     margin: auto;
-    display: block;
     text-align: center;
 }
 
@@ -59,6 +58,7 @@
 
 .pink {
   color: #FF00AC;
+  font-weight: 500 !important;
 }
 
 .footer {
@@ -81,22 +81,12 @@ a {
     text-decoration: none !important;
 }
 
-.instagram-icon:hover {
-    color: #bd0f89;
-    transition: all 0.5s ease;
-}
-
-.linkedin-icon:hover {
-    color: #1a85bc;
-    transition: all 0.5s ease;
-}
-
-.twitter-icon:hover {
-    color: #1da1f2;
-    transition: all 0.5s ease;
-}
-
 .icons {
-    width: 33.3vw;
+
     padding: 0;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
