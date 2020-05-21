@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Lato:300i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 .middle-center {
     vertical-align: middle;
@@ -39,21 +40,25 @@
     background-color: #0000A3;
     border-color: #0000A3;
     transition: all 0.5s ease;
-    
+
 }
 
 .btn:focus,.btn:active {
-    color: #ffffff !important; 
+    color: #ffffff !important;
     outline: none !important;
     box-shadow: none;
 }
 
 .title {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 19px;
     font-weight: 300;
     font-style: regular;
     margin: auto;
+}
+
+.pink {
+  color: #FF00AC;
 }
 
 .footer {
@@ -95,4 +100,3 @@ a {
     width: 33.3vw;
     padding: 0;
 }
-
